@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RAB_QandA</Text>
+    <Description>Some description for RAB_QandA</Description>
+    <Assembly>RAB_QandA.dll</Assembly>
+    <FullClassName>RAB_QandA.Command</FullClassName>
+    <ClientId>f53522a2-58c6-40fd-8c07-9f5fd6d2489f</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RAB_QandA</Name>
+    <Assembly>RAB_QandA.dll</Assembly>
+    <FullClassName>RAB_QandA.App</FullClassName>
+    <ClientId>5c560de1-141c-4469-964f-6d66d23a4229</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
